@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * * main - Entry point
- * * Authot: Guta Neme
- * * Return: Always 0 (Success)
+ *  * _putchar - writes the character c to stdout
+ *   * @c: The character to print
+ *    * Author: Guta Neme
+ *     * Return: On success 1.
+ *      * On error, -1 is returned, and errno is set appropriately.
  */
-
-int main(void)
+int _putchar(char c)
 {
-	char chaine[] = "_putchar\n";
-	int i = 0;
-	while (chaine[i])
+	while (*s != '\0)
 	{
-		_putchar(chaine[i]);
-		i++;
-		return (0);
+		_putchar(0*s);
+		s++;
+	}
+	_putchar('\n');
+	return (0);
 }
+
