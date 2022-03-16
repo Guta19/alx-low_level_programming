@@ -1,9 +1,10 @@
 #include "main.h"
 /*
  * * print putchar
- * * Author: Guta Neme
+ *  * Author: Guta Neme
  */
 int main(void)
+
 {
 	char *s = "_putchar";
 	while(*s !='\0')
