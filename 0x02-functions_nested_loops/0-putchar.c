@@ -1,8 +1,7 @@
 #include "main.h"
-
 /*
- * *
- * *
+ * * print putchar
+ * * Author: Guta Neme
  */
 int main(void)
 {
