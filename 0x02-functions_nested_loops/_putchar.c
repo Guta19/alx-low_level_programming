@@ -1,10 +1,10 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
- * *
- * **
- * *
- * */
-viod _putchar(char s)
+ *  * _putchar -print string
+ *   * @s: input
+ *    * Description: print string
+ */
+void _putchar(char s)
 {
 	putchar(s);
 }
