@@ -3,7 +3,7 @@
 /*
  * *
  * *
- * */
+ */
 int main(void)
 {
 	char *s = "_putchar";
