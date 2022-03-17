@@ -69,7 +69,7 @@ void times_table(void)
 			}
 			else
 			{
-				_putchar(gc(k))
+				_putchar(gc(k));
 			}
 		}
 		_putchar('\n');
