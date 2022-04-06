@@ -79,7 +79,6 @@ int main(int argc, char **argv)
 			if (!is_num(*s))
 			{
 				prints("Error");
-
 				return (1);
 			}
 			s++;
