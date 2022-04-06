@@ -5,33 +5,33 @@
  *   * @n: num to be printed
  *    *
  *     * Description: print  number uisng recursion
- *      */
+ */
 void print_num(int n)
 {
-		if (n / 10 == 0 && n % 10 == 0)
-				{
-							return;
-								}
-			else
-					{
-								print_num(n / 10);
-										_putchar(n % 10 + '0');
-											}
+	if (n / 10 == 0 && n % 10 == 0)
+	{
+		return;
+	}
+	else
+	{
+		print_num(n / 10);
+		_putchar(n % 10 + '0');
+	}
 }
 /**
  *  * prints -print string
  *   * @s: string to be printed
  *    *
  *     * Description: print string
- *      */
+ */
 void prints(char *s)
 {
-		while (*s)
-				{
-							_putchar(*s);
-									s++;
-										}
-			_putchar('\n');
+	while (*s)
+	{
+		_putchar(*s);
+		s++;
+	}
+	_putchar('\n');
 }
 /**
  *  * is_num -check if char is num
