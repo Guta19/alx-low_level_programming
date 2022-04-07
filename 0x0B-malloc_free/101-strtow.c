@@ -69,7 +69,7 @@ char **getArray(char **D, char *str)
 			D[k][wc] = '\0';
 			k++;
 			wc = 0;
-		
+
 		}
 		i++;
 	}
