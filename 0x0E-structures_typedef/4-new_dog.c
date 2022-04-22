@@ -8,15 +8,15 @@ nclude "dog.h"
  *     * Description: return string length
  *      *
  *       * Return: length
- *        */
+ */
 int str_len(char *s)
 {
-		int i;
+	int i;
 
-			i = 0;
-				while (s[i] != '\0')
-							i++;
-					return (i);
+	i = 0;
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
 /**
  *  * str_cpy -copy char buffer
